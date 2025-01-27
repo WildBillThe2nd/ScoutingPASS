@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025ilpe",
+      "defaultValue": "2025NYRO",
       "required": "true"
     },
     { "name": "Match Level",
@@ -25,6 +25,7 @@ var config_data = `
         "qm": "Quals<br>",
         "sf": "Semifinals<br>",
         "f": "Finals"
+        "p": "Practice"
       },
       "defaultValue": "qm",
       "required": "true"
