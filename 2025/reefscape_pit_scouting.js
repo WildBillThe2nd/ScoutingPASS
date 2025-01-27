@@ -65,13 +65,51 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
-    { "name": "Floor pickup Coral",
-      "code": "fpu",
+        { "name": "Coral Scoring",
+      "code": "csl",
+      "type": "radio",
+      "choices": {
+        "r1": "Level 1<br>",
+        "r2": "Level 2<br>",
+        "r3": "Level 3<br>",
+        "r4": "Level 4<br>",
+        "x": "Cannot Score Coral"
+      },
+      "defaultValue": "x"
+    },
+        { "name": "Score in Processor",
+      "code": "pro",
       "type": "bool"
     },
-    { "name": "Floor pickup Algae",
-      "code": "fpa",
+        { "name": "Score in Auto",
+      "code": "acl",
       "type": "bool"
+    },
+        { "name": "Score in Net",
+      "code": "net",
+      "type": "bool"
+    },
+    { "name": "Coral pickup",
+      "code": "fpu",
+       "type": "radio",
+      "choices": {
+        "fl": "Floor<br>",
+        "fd": "Feeder<br>",
+        "b": "Floor & Feeder<br>",
+        "x": "Cannot Pickup Coral"
+      },
+      "defaultValue": "x"
+    },
+    { "name": "Algae pickup",
+      "code": "apu",
+       "type": "radio",
+      "choices": {
+        "fl": "Floor<br>",
+        "rf": "Reef<br>",
+        "b": "Floor & Reef<br>",
+        "x": "Cannot Pickup Algae"
+      },
+      "defaultValue": "x"
     },
     { "name": "Autos",
       "code": "aut",
