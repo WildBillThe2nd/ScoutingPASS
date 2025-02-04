@@ -126,7 +126,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Coral Drop",
-      "code": tcd",
+      "code": "tcd",
       "type": "counter"
     },
     { "name": "Processor Score",
@@ -165,7 +165,7 @@ var config_data = `
         "bp": "Parked<br>",
         "ba": "Parked/Failed Climb<br>",
         "bs": "Shallow (High) Cage<br>",
-        "bd": "Deep (low) Cage<br>",
+        "bd": "Deep (Low) Cage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
