@@ -87,6 +87,10 @@ var config_data = `
       "code": "ac4",
       "type": "counter"
     },
+    { "name": "Coral Drop",
+      "code": "acm",
+      "type": "counter"
+    },
     { "name": "Auto Scoring Position",
       "code": "asp",
       "type": "clickable_image",
@@ -119,6 +123,10 @@ var config_data = `
     },
     { "name": "Coral L4",
       "code": "tc4",
+      "type": "counter"
+    },
+    { "name": "Coral Drop",
+      "code": tacm",
       "type": "counter"
     },
     { "name": "Processor Score",
@@ -216,10 +224,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Dropped Coral (>2)",
-      "code": "dc",
       "type": "bool"
     },
     { "name": "Dropped Algae (>2)",
