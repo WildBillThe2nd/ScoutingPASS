@@ -126,7 +126,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Coral Drop",
-      "code": tacm",
+      "code": tcm",
       "type": "counter"
     },
     { "name": "Processor Score",
