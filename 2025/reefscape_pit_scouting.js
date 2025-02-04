@@ -24,8 +24,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "t": "West Coast/Tank<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
@@ -69,10 +68,10 @@ var config_data = `
       "code": "csl",
       "type": "radio",
       "choices": {
-        "r1": "Level 1<br>",
-        "r2": "Level 2<br>",
-        "r3": "Level 3<br>",
-        "r4": "Level 4<br>",
+        "r1": "L1 Only<br>",
+        "r2": "L1-L3<br>",
+        "r3": "L2-L3 Only<br>",
+        "r4": "L1-L4<br>",
         "x": "Cannot Score Coral"
       },
       "defaultValue": "x"
@@ -122,6 +121,75 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
+    },
+    { "name": "Pgm. Language",
+      "code": "pla",
+       "type": "radio",
+      "choices": {
+        "ja": "Java<br>",
+        "c": "C++<br>",
+        "lv": "LabVIEW<br>",
+        "py": "Python"
+      },
+      "defaultValue": "ja"
+    },
+    { "name": "RoboRio",
+      "code": "prr",
+       "type": "radio",
+      "choices": {
+        "v1": "Version 1<br>",
+        "v2": "Version 2<br>",
+        "idk": "IDK"
+      },
+      "defaultValue": "idk"
+    },
+    { "name": "# of Cameras",
+      "code": "pca",
+      "type": "number"
+    },
+    { "name": "Vision Pipeline",
+      "code": "pvp",
+       "type": "radio",
+      "choices": {
+        "pv": "Photon Vision<br>",
+        "ll": "Limelight<br>",
+        "o": "Other<br>",
+        "nv": "No Vision"
+      },
+      "defaultValue": "nv"
+    },
+    { "name": "Vision Coprocessor",
+      "code": "pcp",
+       "type": "radio",
+      "choices": {
+        "rp": "Raspberry Pi 5<br>",
+        "op": "Orange Pi<br>",
+        "o": "Other<br>",
+        "nv": "No Vision"
+      },
+      "defaultValue": "nv"
+    },
+    { "name": "Vision Comments",
+      "code": "pvc",
+      "type": "text",
+      "size": 20,
+      "maxSize": 100
+    },
+      { "name": "Current Mgmt?<br>Preventing Brownout",
+      "code": "ecm",
+      "type": "text",
+      "size": 20,
+      "maxSize": 100
+    },
+      { "name": "Wiring Hacks?<br>Quick/Easy/Better",
+      "code": "ewh",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
+    { "name": "Load Test Batteries?",
+      "code": "elt",
+      "type": "bool"
     },
     { "name": "Comments",
       "code": "co",
