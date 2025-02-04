@@ -87,6 +87,17 @@ var config_data = `
       "code": "net",
       "type": "bool"
     },
+    { "name": "Hang on Cage",
+      "code": "efs",
+      "type":"radio",
+      "choices": {
+        "sh": "Shallow (High) Cage<br>",
+        "dh": "Deep (Low) Cage<br>",
+        "bh": "Both Shallow & Deep<br>",
+        "x": "Cannot Hang"
+      },
+      "defaultValue": "x"
+    },
     { "name": "Coral pickup",
       "code": "fpu",
        "type": "radio",
