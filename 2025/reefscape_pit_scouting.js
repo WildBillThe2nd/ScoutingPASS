@@ -67,11 +67,7 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
-    },
-        { "name": "Coral Scoring",
+    { "name": "Coral Scoring",
       "code": "csl",
       "type": "radio",
       "choices": {
@@ -83,21 +79,11 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-        { "name": "Score in Processor",
+    { "name": "Score in Processor",
       "code": "pro",
       "type": "bool"
     },
-        { "name": "Score in Auto",
-      "code": "acl",
-      "type": "bool"
-    },
-    { "name": "Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
-        { "name": "Score in Net",
+    { "name": "Score in Net",
       "code": "net",
       "type": "bool"
     },
@@ -122,6 +108,16 @@ var config_data = `
         "x": "Cannot Pickup Algae"
       },
       "defaultValue": "x"
+    },
+    { "name": "Score in Auto",
+      "code": "acl",
+      "type": "bool"
+    },
+    { "name": "Autos",
+      "code": "aut",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
@@ -193,6 +189,10 @@ var config_data = `
       "type": "text",
       "size": 20,
       "maxSize": 250
+    },
+    { "name": "# of Batteries",
+      "code": "nob",
+      "type": "number"
     },
     { "name": "Load Test Batteries?",
       "code": "elt",
