@@ -88,7 +88,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Coral Drop",
-      "code": "acm",
+      "code": "acd",
       "type": "counter"
     },
     { "name": "Auto Scoring Position",
@@ -126,7 +126,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Coral Drop",
-      "code": tcm",
+      "code": tcd",
       "type": "counter"
     },
     { "name": "Processor Score",
