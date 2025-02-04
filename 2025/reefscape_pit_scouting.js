@@ -5,6 +5,13 @@ var config_data = `
   "page_title": "REEFSCAPE",
   "pitConfig": "true",
   "prematch": [
+    { "name": "Scouter Initials",
+      "code": "s",
+      "type": "scouter",
+      "size": 5,
+      "maxSize": 5,
+      "required": "true"
+    },
     { "name": "Team Number",
       "code": "t",
       "type": "number"
@@ -30,12 +37,6 @@ var config_data = `
       },
       "defaultValue": "o"
     },
-    { "name": "Other Drivetrain",
-      "code": "odt",
-      "type": "text",
-      "size": 20,
-      "maxSize": 50
-    },
     { "name": "Swerve Ratio",
       "code": "sr",
       "type": "radio",
@@ -60,6 +61,12 @@ var config_data = `
       },
       "defaultValue":"x"
     },
+    { "name": "Drivetrain Comments",
+      "code": "odt",
+      "type": "text",
+      "size": 20,
+      "maxSize": 50
+    },
     { "name": "# of Batteries",
       "code": "nob",
       "type": "number"
@@ -83,6 +90,12 @@ var config_data = `
         { "name": "Score in Auto",
       "code": "acl",
       "type": "bool"
+    },
+    { "name": "Autos",
+      "code": "aut",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
         { "name": "Score in Net",
       "code": "net",
@@ -110,12 +123,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
       "type": "text",
@@ -133,12 +140,12 @@ var config_data = `
       },
       "defaultValue": "ja"
     },
-    { "name": "RoboRio",
+    { "name": "RoboRIO",
       "code": "prr",
        "type": "radio",
       "choices": {
-        "v1": "Version 1<br>",
-        "v2": "Version 2<br>",
+        "v1": "RIO 1<br>",
+        "v2": "RIO 2<br>",
         "idk": "IDK"
       },
       "defaultValue": "idk"
