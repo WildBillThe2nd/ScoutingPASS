@@ -198,6 +198,12 @@ var config_data = `
       "code": "elt",
       "type": "bool"
     },
+    { "name": "How do you quantify<br>Your Outreach Impact?",
+      "code": "oi",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    }
     { "name": "Comments",
       "code": "co",
       "type": "text",
