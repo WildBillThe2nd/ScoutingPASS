@@ -164,8 +164,8 @@ var config_data = `
       "choices": {
         "bp": "Parked<br>",
         "ba": "Parked/Failed Climb<br>",
-        "bs": "Shallow Cage<br>",
-        "bd": "Deep Cage<br>",
+        "bs": "Shallow (High) Cage<br>",
+        "bd": "Deep (low) Cage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
